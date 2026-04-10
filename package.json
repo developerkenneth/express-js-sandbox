@@ -1,0 +1,55 @@
+{
+  "name": "express_js",
+  "version": "1.0.0",
+  "description": "started learning express js 3/6/2026",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon  index.js",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developerkenneth/express-js-sandbox.git"
+  },
+  "keywords": [
+    "learn",
+    "express-js",
+    "|",
+    "web",
+    "development",
+    "|",
+    "typescript",
+    "|",
+    "back",
+    "end",
+    "javascript",
+    "|",
+    "back",
+    "end",
+    "web",
+    "development",
+    "2026",
+    "|",
+    "update",
+    "your",
+    "skills"
+  ],
+  "author": "kenneth otis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developerkenneth/express-js-sandbox/issues"
+  },
+  "homepage": "https://github.com/developerkenneth/express-js-sandbox#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
