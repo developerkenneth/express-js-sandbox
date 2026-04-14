@@ -1,6 +1,7 @@
 const express = require("express");
 
-// focus on getting query strings 
+// focused on getting url parameters
+
 const { products } = require("./data/datas");
 
 const app = express();
@@ -25,15 +26,6 @@ app.get("/products/:productID", function (req, res) {
     }
 
     res.json(singleProduct);
-    return;
-});
-
-
-// getting query strings  eg ?q=hello world
-
-app.get("/search", (req, res)=>{
-    console.log(req.query);
-    res.send(`<h1>You search for "${req.query.query}"</h1>`);
     return;
 });
 app.all(/.*/, (req, res) => {
