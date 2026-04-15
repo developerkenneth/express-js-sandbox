@@ -1,3 +1,5 @@
+// focus is on middleware 
+
 const express = require("express");
 const { json } = require("node:stream/consumers");
 
