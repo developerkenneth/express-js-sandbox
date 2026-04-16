@@ -44,31 +44,31 @@ const products = [
 const users = [
     {
         id: 1,
-        username: "john doe",
+        username: "john",
         email: "john@gmail.com",
         password: "password"
     },
     {
         id: 2,
-        username: "judge doe",
+        username: "judge",
         email: "judge@gmail.com",
         password: "password123"
     },
     {
         id: 3,
-        username: "justin doe",
+        username: "justin",
         email: "justin@gmail.com",
         password: "password45"
     },
     {
         id: 4,
-        username: "amaka doe",
+        username: "amaka",
         email: "amakizzy@gmail.com",
         password: "password@@@"
     },
     {
         id: 5,
-        username: "jesse doe",
+        username: "jesse",
         email: "jesse@gmail.com",
         password: "password123"
     }

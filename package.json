@@ -44,6 +44,7 @@
   "homepage": "https://github.com/developerkenneth/express-js-sandbox#readme",
   "dependencies": {
     "express": "^5.2.1",
+    "morgan": "^1.10.1",
     "nodemon": "^3.1.14"
   },
   "devDependencies": {
